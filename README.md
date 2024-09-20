@@ -1,1 +1,1 @@
-docker compose up --buildgit commit -m "first commit"
+docker compose up --build
