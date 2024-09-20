@@ -6,10 +6,10 @@ services:
       dockerfile: Dockerfile
     restart: always
     links:
-      - "caddy-1:1.localhost"
+      - "caddy:caddy.localhost"
 
 
-  caddy-1:
+  caddy:
     image: caddy:2
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile:ro
