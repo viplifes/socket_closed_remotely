@@ -48,6 +48,34 @@ init(_Args) ->
         #{id => myserver2_6, start => {gen_server, start_link, [{local, myserver2_6}, myserver, ["https://1.localhost"], []]}},
         #{id => myserver3_6, start => {gen_server, start_link, [{local, myserver3_6}, myserver, ["https://1.localhost"], []]}},
         #{id => myserver4_6, start => {gen_server, start_link, [{local, myserver4_6}, myserver, ["https://1.localhost"], []]}},
-        #{id => myserver5_6, start => {gen_server, start_link, [{local, myserver5_6}, myserver, ["https://1.localhost"], []]}}
+        #{id => myserver5_6, start => {gen_server, start_link, [{local, myserver5_6}, myserver, ["https://1.localhost"], []]}},
+
+
+        #{id => myserver_7, start => {gen_server, start_link, [{local, myserver_7}, myserver, ["https://1.localhost"], []]}},
+        #{id => myserver2_7, start => {gen_server, start_link, [{local, myserver2_7}, myserver, ["https://1.localhost"], []]}},
+        #{id => myserver3_7, start => {gen_server, start_link, [{local, myserver3_7}, myserver, ["https://1.localhost"], []]}},
+        #{id => myserver4_7, start => {gen_server, start_link, [{local, myserver4_7}, myserver, ["https://1.localhost"], []]}},
+        #{id => myserver5_7, start => {gen_server, start_link, [{local, myserver5_7}, myserver, ["https://1.localhost"], []]}},
+
+
+        #{id => myserver_8, start => {gen_server, start_link, [{local, myserver_8}, myserver, ["https://1.localhost"], []]}},
+        #{id => myserver2_8, start => {gen_server, start_link, [{local, myserver2_8}, myserver, ["https://1.localhost"], []]}},
+        #{id => myserver3_8, start => {gen_server, start_link, [{local, myserver3_8}, myserver, ["https://1.localhost"], []]}},
+        #{id => myserver4_8, start => {gen_server, start_link, [{local, myserver4_8}, myserver, ["https://1.localhost"], []]}},
+        #{id => myserver5_8, start => {gen_server, start_link, [{local, myserver5_8}, myserver, ["https://1.localhost"], []]}},
+
+
+        #{id => myserver_9, start => {gen_server, start_link, [{local, myserver_9}, myserver, ["https://1.localhost"], []]}},
+        #{id => myserver2_9, start => {gen_server, start_link, [{local, myserver2_9}, myserver, ["https://1.localhost"], []]}},
+        #{id => myserver3_9, start => {gen_server, start_link, [{local, myserver3_9}, myserver, ["https://1.localhost"], []]}},
+        #{id => myserver4_9, start => {gen_server, start_link, [{local, myserver4_9}, myserver, ["https://1.localhost"], []]}},
+        #{id => myserver5_9, start => {gen_server, start_link, [{local, myserver5_9}, myserver, ["https://1.localhost"], []]}},
+
+
+        #{id => myserver_10, start => {gen_server, start_link, [{local, myserver_10}, myserver, ["https://1.localhost"], []]}},
+        #{id => myserver2_10, start => {gen_server, start_link, [{local, myserver2_10}, myserver, ["https://1.localhost"], []]}},
+        #{id => myserver3_10, start => {gen_server, start_link, [{local, myserver3_10}, myserver, ["https://1.localhost"], []]}},
+        #{id => myserver4_10, start => {gen_server, start_link, [{local, myserver4_10}, myserver, ["https://1.localhost"], []]}},
+        #{id => myserver5_10, start => {gen_server, start_link, [{local, myserver5_10}, myserver, ["https://1.localhost"], []]}}
     ],
     {ok, {SupFlags, ChildSpecs}}.
