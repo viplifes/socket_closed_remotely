@@ -7,11 +7,13 @@
    [
     kernel,
     stdlib,
+    runtime_tools,
     inets,
     crypto,
     public_key,
     ssl,
-    hackney
+    hackney,
+    gun
    ]},
   {env,[]},
   {modules, []}
